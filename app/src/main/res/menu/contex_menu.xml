@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/sil"
+        android:orderInCategory="0"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="sil"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/düzenle"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Güncelle"
+        app:showAsAction="always">
+    </item>
+
+
+
+</menu>
